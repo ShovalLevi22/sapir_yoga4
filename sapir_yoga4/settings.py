@@ -25,7 +25,7 @@ SECRET_KEY = '=&k@lkyj5su+uv7^0b2^0kz5au5_wbl*a0abko2m7%jnrye%+w'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['django-env.eba-2asamk4r.eu-central-1.elasticbeanstalk.com']
 
 
 # Application definition

@@ -13,11 +13,11 @@ olefile==0.46
 Pillow==7.1.0
 psutil==5.7.0
 pycparser==2.20
-python-dateutil==2.8.1
 pytz==2019.3
-six==1.14.0
+six==1.11.0
 sqlparse==0.3.0
-text-unidecode==1.2
+text-unidecode==1.3
 tini==3.0.1
 wincertstore==0.2
 yagmail==0.11.224
+python-dateutil==2.4
