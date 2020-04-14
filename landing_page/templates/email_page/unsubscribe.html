@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<title>Signin Template for Bootstrap</title>
+		<!-- Bootstrap core CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<!-- Custom styles for this template -->
+		<link href="../../static/css/sign-in.css" rel="stylesheet">
+	</head>
+	<body class="text-center" style="background: linear-gradient(90deg, #acb6e5, #86fde8);">
+		<div class='container'>
+			<h1 style="color: #ffffff; direction: rtl; font-size: 3vw;">הוסרת מרשימת התפוצה. על מנת להירשם שנית לחץ על הכפתור</h1>
+			<form method="post" class="form-signin" style="width: 40%;">
+				<button type="submit" class="btn btn-primary btn-outline-white" style="font-weight: bold; font-size: 2vw;">החזר אותי לרשימת התפוצה</button>
+			    {% csrf_token %}
+            </form>
+		</div>
+		<!-- Bootstrap core JavaScript
+    ================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+{#		<script src="assets/js/jquery.min.js"></script>#}
+{#		<script src="../../../assets/js/popper.js"></script>#}
+{#		<script src="bootstrap/js/bootstrap.min.js"></script>#}
+	</body>
+</html>

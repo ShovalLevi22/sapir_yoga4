@@ -1,0 +1,15 @@
+{
+  "login": {
+    "User": "SapirBarnesYoga",
+    "Password": "Sapir7877"
+  },
+  "html": {
+  "main_button_link": "http://127.0.0.1:8000/yoga_guide",
+  "facebook": "sapirbarnesyoga",
+  "instagram": "sapir_yoga",
+  "youtube_ch": "UCF-H06C6OVBil_2zex--f2A"
+  },
+
+  "email_subject": "המדריך שלי לשחרור פלג הגוף העליון ☀",
+  "html_file_name": "landing_page/templates/email_page/email_page.html"
+}
