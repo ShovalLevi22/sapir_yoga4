@@ -236,6 +236,7 @@ info {
 
 h1,
 p,
-label {
+label,
+input {
     direction: rtl;
 }
