@@ -16,17 +16,18 @@
 	<body>
 		<div class="" style="position: relative;">
 			<div class="inner cover" style="background: linear-gradient(354deg, rgb(76, 184, 196) 0%, rgb(60, 211, 173) 100%); height: 100%;">
-				<h1 class="cover-heading">קליק ו -5 דקות סרטון לשחרור פלג הגוף העליון אצלך במייל!</h1>
-				<p class="lead">לקבלת סרטון של 5 דקות לשחרור פלג הגוף העליון - שכמות, כתפיים וצוואר מלא/י את פרטייך :</p>
+				<h1 class="cover-heading">קליק אחד ו -5 דקות סרטון לשחרור פלג הגוף העליון אצלך במייל!</h1>
+				<p class="lead">לקבלת סרטון של 5 דקות לשחרור פלג הגוף העליון - שכמות, כתפיים וצוואר </p>
+				<p class="lead">מלא/י את פרטייך :</p>
 				<form enctype="multipart/form-data" method="POST">
-					<label for="username">שם מלא: </label>					 
-					<input class="subscribe-form form-control input" id="username" type="text" name="username"> 
-					<label for="email">כתובת מייל:</label>					 
-					<input class="subscribe-form form-control input" id="email" type="email" name="email">
+					<label for="your_name">שם מלא: </label>					 
+					<input class="subscribe-form form-control input" id="username" type="text" name="your_name"> 
+					<label for="your_name">כתובת מייל:</label>					 
+					<input class="subscribe-form form-control input" id="email" type="text" name="your_name">
 					{% csrf_token %}
 					<div>
 						<input type="checkbox" class="" name="send_newsletter" id="send_newsletter" required/>
-						<label for="send_newsletter">אני מאשר/ת קבלת דיוור פרסומי.</label>
+						<label for="send_newsletter" class="checkbox-rtl">אני מאשר/ת קבלת דיוור פרסומי</label>
 					</div>
 					<input type="submit" class="btn btn-primary btn-outline-white px-4 py-3 " value="אישור"/>
 				</form>
@@ -34,12 +35,12 @@
 			</div>
 		</div>
 		<div class='info' style="background-color: #ffffff;">
-			<img src="../../static/images/sapir3.jpeg" style="width: 60%; margin-top: 43px; margin-bottom: 36px;"/>
+			<img src="../../static/images/sapir3.jpeg" style="width: 60%; margin-top: 43px; margin-bottom: 36px;" class="main-img"/>
 			<div class="container ftco-degree-bg"></div>
 		</div>
 		<div class='' style="background-color: #ffffff;">
-			<div class="row d-flex justify-content-center" style="margin: 6px; background: #afeccc; padding-top: 10%; padding-bottom: 52px;"> 
-				<img src="../../static/images/logo.png" style="width: 40%; height: 40%; margin-top: 43px; margin-bottom: 36px; max-width: 325px; max-height: 324px;">
+			<div class="row d-flex justify-content-center" style="margin: 6px; padding-top: 10%; padding-bottom: 52px; background-color: #4abbc1;"> 
+				<img src="../../static/images/logo.png" style="width: 40%; height: 40%; margin-top: 43px; margin-bottom: 36px; max-width: 325px; max-height: 324;">
 				<div class="col-md-12 text-center heading-section heading-section-white ftco-animate"> 
 					עקבו אחרי ברשתות החברתיות
 					<div class="col-md"> 
@@ -56,5 +57,8 @@
 		<script src="../../static/js/jquery.min.js"></script>
 		<script src="../../static/js/popper.js"></script>
 		<script src="../../static/bootstrap/js/bootstrap.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 	</body>
 </html>

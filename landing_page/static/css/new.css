@@ -207,10 +207,10 @@ body {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#448ef6', endColorstr='#af05a9', GradientType=1 );
 }
 
-
 .info {
     padding-top: 5%;
     position: relative;
+    padding-bottom: 5% ;
 }
 
 .btn-outline-white {
@@ -218,6 +218,7 @@ body {
     background: none;
     border-radius: 30px;
     border-width: 2px;
+    width: 20%;
 }
 
 .btn.btn-outline-white:hover,
@@ -233,4 +234,43 @@ p,
 label,
 input {
     direction: rtl;
+}
+
+.input {
+    border-radius: 30px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 4%;
+}
+
+input:hover {
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    border: 2px solid rgba(81, 203, 238, 1);
+}
+
+h1.cover-heading {
+    font-size: 4vw;
+    margin-bottom: 4%;
+}
+
+p.lead {
+    font-size: 2.5vw;
+}
+
+label {
+    font-size: 2.3vw;
+}
+
+input.btn {
+    font-size: 1.6vw;
+}
+
+.main-img {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.embed-responsive-item {
+    max-width: 1500px;
+    max-height: 750px;
 }
