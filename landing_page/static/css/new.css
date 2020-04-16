@@ -31,6 +31,7 @@ body {
     color: #fff;
     text-align: center;
     text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+    background-color: #4abbc1;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -249,12 +250,12 @@ input:hover {
 }
 
 h1.cover-heading {
-    font-size: 4vw;
+    font-size: 4.2vw;
     margin-bottom: 4%;
 }
 
 p.lead {
-    font-size: 2.5vw;
+    font-size: 2.7vw;
 }
 
 label {
@@ -262,15 +263,38 @@ label {
 }
 
 input.btn {
-    font-size: 1.6vw;
+    font-size: 1.7vw;
+    width: 30%;
 }
 
 .main-img {
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 60%;
+    margin-top: 43px;
+    margin-bottom: 36px;
 }
 
 .embed-responsive-item {
     max-width: 1500px;
     max-height: 750px;
+}
+
+h1.thanks {
+    font-size: 5vw;
+}
+
+p.thanks {
+    font-size: 3vw;
+}
+
+.down-section {
+    margin: 6px;
+    padding-top: 22%;
+    padding-bottom: 52px;
+    background-color: #4abbc1;
+}
+
+.background {
+    background-color: #4abbc1;
 }
