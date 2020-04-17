@@ -21,9 +21,9 @@
 				<p class="lead">מלא/י את פרטייך :</p> 
 				<form enctype="multipart/form-data" method="POST"> 
 					<label for="username">שם מלא: </label>					 
-					<input class="subscribe-form form-control input" id="username" type="text" name="username"> 
+					<input class="subscribe-form form-control input" id="username" type="text" name="username" required>
 					<label for="email">כתובת מייל:</label>					 
-					<input class="subscribe-form form-control input" id="email" type="email" name="email"> 
+					<input class="subscribe-form form-control input" id="email" type="email" name="email" required>
 					{% csrf_token %}
 					<div> 
 						<input type="checkbox" class="" name="send_newsletter" id="send_newsletter" required/> 
