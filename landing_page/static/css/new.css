@@ -267,7 +267,7 @@ label {
 }
 
 input.btn {
-    font-size: 1.7vw;
+    font-size: 2vw;
     width: 30%;
 }
 
@@ -325,4 +325,16 @@ p {
     h2 {
         font-size: 1rem;
     }
+
+    label {
+        font-size: 0.9rem;
+    }
+
+    input.btn {
+        font-size: 0.8rem;
+    }
+}
+
+.text-center h2 {
+    text-align: center;
 }
