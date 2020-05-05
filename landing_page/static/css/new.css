@@ -231,10 +231,13 @@ body {
 }
 
 h1,
+h2,
+h3,
 p,
 label,
 input {
     direction: rtl;
+    text-align: right;
 }
 
 .input {
@@ -252,6 +255,7 @@ input:hover {
 h1.cover-heading {
     font-size: 4.2vw;
     margin-bottom: 4%;
+    text-align: center;
 }
 
 p.lead {
@@ -297,4 +301,28 @@ p.thanks {
 
 .background {
     background-color: #4abbc1;
+}
+
+h2 {
+    font-size: 2.2vw;
+}
+
+p {
+    font-size: 2vw;
+    line-height: 1.7em;
+}
+
+.green {
+    color: black;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    p {
+        font-size: 0.9rem;
+        line-height: 1.7em;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
 }
