@@ -5,6 +5,7 @@ from django.views.generic import TemplateView, CreateView, View
 from . funcs.main import send_mail
 from django.contrib.auth.models import User
 
+from django.shortcuts import redirect
 
 # Create your views here.
 def register(request):
@@ -49,7 +50,7 @@ class VideoPageView(TemplateView):
         except User.DoesNotExist:
             return render(request, 'landing_page/about.html')
 
-        return render(request, 'video_page/video_page.html')
+        return redirect("https://drive.google.com/file/d/1MuaIsLj4CEX-zpz2obHuYp5KTn3xwZDi/view?usp=sharing")
 
 
 class UnsubscribeView(View):

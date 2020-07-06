@@ -4,12 +4,12 @@
     "Password": "Sapir7877"
   },
   "html": {
-  "main_button_link": "http://www.sapiryoga.com/yoga_guide",
+  "main_button_link": "http://db69cdc34aaa.ngrok.io/yoga_guide",
   "facebook": "sapirbarnesyoga",
   "instagram": "sapir_yoga",
   "youtube_ch": "UCF-H06C6OVBil_2zex--f2A"
   },
 
-  "email_subject": "המדריך שלי לשחרור פלג הגוף העליון ☀",
+  "email_subject": "3 תרגילי יוגה לאיזון הגוף והנפש ☀",
   "html_file_name": "landing_page/templates/email_page/email_page.html"
 }
